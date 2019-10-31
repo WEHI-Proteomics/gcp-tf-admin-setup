@@ -16,5 +16,5 @@ output "project_name" {
 }
 
 output "enabled_apis" {
-  value = "${google_project_services.project.services}"
+  value = "${google_project_service.project.service}"
 }

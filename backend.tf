@@ -6,8 +6,7 @@
 */
 terraform {
   backend "gcs" {
-    bucket  = "tester-01-yo"
-    project = "tester-01-yo"
+    bucket  = "tf-admin-jk"
     prefix  = "terraform/state"
   }
 }
